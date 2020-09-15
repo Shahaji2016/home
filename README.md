@@ -12,7 +12,7 @@
 ![CFN AWS Pipeline](AWS-Pipeline.png)
 
 ---
-## Deploymnet to multiple clusters
+## Deployment to multiple clusters
 ![CFN AWS Pipeline](AWS-Pipeline2.png)
 
 ---
