@@ -8,3 +8,4 @@
    1. credentials
    2. config
     
+![CFN AWS Pipeline](AWS-Pipeline.png)
