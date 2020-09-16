@@ -9,7 +9,7 @@
 ![CFN AWS Pipeline](aws-multiple-clusters.png)
 
 ---
-## MCMP integration
+## MCMP integration - Build Instrumentation
 ![CFN AWS Pipeline](aws-pipeline-mcmp-integration.png)
 
 ## Instructions 
