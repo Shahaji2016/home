@@ -13,7 +13,7 @@
 ![CFN AWS Pipeline](aws-pipeline-mcmp-integration.png)
 
 ## Instructions 
- [Documentation](<https://github.com/mcmpdemo/home/edit/master/README.md>)
+ [Provisioning AWS CI/CD Pipeline](<https://github.com/mcmpdemo/home/edit/master/README.md>)
 
 ## OpenShift Deployment 
    <https://github.com/mcmpdemo/home/tree/master/mcmp-demo-config-bucket/OCP>
