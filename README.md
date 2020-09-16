@@ -1,15 +1,15 @@
-# AWS CI/CD pipeline with Kubernetes, Helm and MCMP integration
+# AWS CI/CD Pipeline with Kubernetes, Helm and MCMP Integration
 
 ---
 ## Pipeline Overview 
 ![CFN AWS Pipeline](aws-overview.png)
 
 ---
-## Deployment to multiple clusters
+## Deployment to Multiple Clusters
 ![CFN AWS Pipeline](aws-multiple-clusters.png)
 
 ---
-## MCMP integration - Build Instrumentation
+## MCMP Integration - Build Instrumentation
 ![CFN AWS Pipeline](aws-pipeline-mcmp-integration.png)
 
 ## Instructions 
