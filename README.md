@@ -15,11 +15,13 @@
 ## Instructions 
  [Documentation](<https://github.com/mcmpdemo/home/edit/master/README.md>)
 
-## For OpenShift and EKS clusters (mcmp-demo-config-bucket)
+## OpenShift Deployment - (<https://github.com/mcmpdemo/home/mcmp-demo-config-bucket/OCP>)
    1. kubeconfig.yaml
-   2. database-secret.yaml
+   2. database-secret.yaml (optional)
    
-## Additional EKS configurationf files
-   1. credentials
-   2. config
+## EKS Deployment - (<https://github.com/mcmpdemo/home/mcmp-demo-config-bucket/EKS>)
+   1. kubeconfig.yaml
+   2. database-secret.yaml (optional)
+   3. credentials
+   4. config
 
