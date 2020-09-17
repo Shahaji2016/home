@@ -17,11 +17,13 @@
    It is currently tested with GitHub repository and deployment to OpenShift/AWS-EKS Kubernetes clusters.
    ### Pre-requisites
    1. AWS Account
-   2. DockerHub Account
-   3. GitHub Account
-   4. GitHub Personal Access Token: [How to create access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) 
-   5. Kubernetes Cluster  (See below for sample kubeconfig.yaml) 
-   5. Git repository with DockerFile and helm chart
+   2. MCMP Account
+   3. MCMP Token to publish build 
+   4. DockerHub Account
+   5. GitHub Account
+   6. GitHub Personal Access Token: [How to create access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) 
+   7. Kubernetes Cluster - OCP or EKS  (See below for sample kubeconfig.yaml) 
+   8. Git repository with DockerFile and helm chart
         ![GitHub Repo](github-repo.png)
       
   ### OpenShift Deployment 
@@ -50,7 +52,8 @@
    3. Select **AWS CI/CD Pipeline** => **Configure**
    
    **From AWS console** <br>
-   
+   1. Sign in to AWS console 
+   2. Select Launch button below
    <a href="https://console.aws.amazon.com/cloudformation/home?#/stacks/new?&templateURL=https://mcmp-demo-template-bucket.s3.us-east-2.amazonaws.com/mcmp-pipeline-cloudformation-github.yaml" rel="nofollow"><img src="cloudformation-launch-stack.png" alt="deploy to aws" style="max-width:100%;"></a>
    
    
