@@ -12,7 +12,7 @@
 ## MCMP Integration - Build Instrumentation
 ![CFN AWS Pipeline](aws-pipeline-mcmp-integration.png)
 
-## Instructions : Provisioning AWS CI/CD Pipeline
+## Instructions - Provisioning AWS CI/CD Pipeline
    The pipeline is designed to integrate with source code repository that contains a docker based application/microservice and deployed using helm chart.
    It is currently tested with GitHub repository and deployment to OpenShift/AWS-EKS Kubernetes clusters.
    ### Pre-requisites
@@ -64,7 +64,7 @@
    
    **From AWS console** <br>
    1. Sign in to AWS console 
-   2. Select Launch button:
+   2. Select Launch button 
    <a href="https://console.aws.amazon.com/cloudformation/home?#/stacks/new?&templateURL=https://mcmp-demo-template-bucket.s3.us-east-2.amazonaws.com/mcmp-pipeline-cloudformation-github.yaml" rel="nofollow"><img src="cloudformation-launch-stack.png" alt="deploy to aws" style="max-width:100%;"></a>
    
    
