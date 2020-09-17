@@ -43,13 +43,15 @@
    Sample EKS configuration files: <https://github.com/mcmpdemo/home/tree/master/mcmp-demo-config-bucket/EKS>
    
   ### Provisioning Pipeline
-   **From MCMP console **
+  
+   **From MCMP console**
    1. Login to MCMP
    2. Select **Enterprise Marketplace** => **Catalog**
    3. Select **AWS CI/CD Pipeline** => **Configure**
    
-   **From AWS console**
-   <a href="https://console.aws.amazon.com/cloudformation/home?#/stacks/new?&templateURL=https://mcmp-demo-config-bucket.s3.us-east-2.amazonaws.com/mcmp-pipeline-cloudformation-github.yaml" rel="nofollow"><img src="../images/cloudformation-launch-stack.png" alt="deploy to aws" style="max-width:100%;"></a>
+   **From AWS console** <br>
+   
+   <a href="https://console.aws.amazon.com/cloudformation/home?#/stacks/new?&templateURL=https://mcmp-demo-template-bucket.s3.us-east-2.amazonaws.com/mcmp-pipeline-cloudformation-github.yaml" rel="nofollow"><img src="../images/cloudformation-launch-stack.png" alt="deploy to aws" style="max-width:100%;"></a>
    
    
 
