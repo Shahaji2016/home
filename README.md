@@ -32,8 +32,8 @@
    2. Go to one of the following repo links
    3. Select **Fork** button at the right hand side of the portal 
     
-   [catalog-api](https://github.com/mcmpdemoeng/aws-catalog-api)
-   [orders-api](https://github.com/mcmpdemoeng/aws-orders-api)
+   [catalog-api](https://github.com/mcmpdemoeng/aws-catalog-api)<br>
+   [orders-api](https://github.com/mcmpdemoeng/aws-orders-api)<br>
    [ui](https://github.com/mcmpdemoeng/aws-ui)
     
       
