@@ -51,7 +51,7 @@
    
    **From AWS console** <br>
    
-   <a href="https://console.aws.amazon.com/cloudformation/home?#/stacks/new?&templateURL=https://mcmp-demo-template-bucket.s3.us-east-2.amazonaws.com/mcmp-pipeline-cloudformation-github.yaml" rel="nofollow"><img src="../images/cloudformation-launch-stack.png" alt="deploy to aws" style="max-width:100%;"></a>
+   <a href="https://console.aws.amazon.com/cloudformation/home?#/stacks/new?&templateURL=https://mcmp-demo-template-bucket.s3.us-east-2.amazonaws.com/mcmp-pipeline-cloudformation-github.yaml" rel="nofollow"><img src="cloudformation-launch-stack.png" alt="deploy to aws" style="max-width:100%;"></a>
    
    
 
