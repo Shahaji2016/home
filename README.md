@@ -16,12 +16,11 @@
    The pipeline is designed to integrate with source code repository that contains a docker based application/microservice and deployed using helm chart.
    It is currently tested with GitHub repository and deployment to OpenShift/AWS-EKS Kubernetes clusters.
    # Pre-requisites
-   
-     1. AWS Account
-     2. DockerHub Account
-     3. GitHub Account
-     4. GitHub Personal Access Token: [How to create access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) 
-     5. Git repository with DockerFile and helm chart
+   1. AWS Account
+   2. DockerHub Account
+   3. GitHub Account
+   4. GitHub Personal Access Token: [How to create access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) 
+   5. Git repository with DockerFile and helm chart
         ![GitHub Repo](GitHub Repo.png)
       
 ## OpenShift Deployment 
