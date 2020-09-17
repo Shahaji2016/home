@@ -23,8 +23,19 @@
    5. GitHub Account
    6. GitHub Personal Access Token: [How to create access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) 
    7. Kubernetes Cluster - OCP or EKS  (See below for sample kubeconfig.yaml) 
-   8. Git repository with DockerFile and helm chart
+   8. Git repository with DockerFile and helm chart (see below instructions to clone sample repository)
         ![GitHub Repo](github-repo.png)
+        
+  ### Quick start with Sample Repositories
+    The following sample repositories are availble for practice and can be forked to your github account
+    1. Login to your github account
+    2. Go to one of the following repo links
+    3. Select **Fork** button at the right hand side of the portal 
+    
+    [catalog-api](https://github.com/mcmpdemoeng/aws-catalog-api)
+    [orders-api](https://github.com/mcmpdemoeng/aws-orders-api)
+    [ui](https://github.com/mcmpdemoeng/aws-ui)
+    
       
   ### OpenShift Deployment 
    The following configuration files are required. You can upload configuration files to an S3 bucket or place it at the root directory of repository.
@@ -53,7 +64,7 @@
    
    **From AWS console** <br>
    1. Sign in to AWS console 
-   2. Select Launch button below
+   2. Select Launch button:
    <a href="https://console.aws.amazon.com/cloudformation/home?#/stacks/new?&templateURL=https://mcmp-demo-template-bucket.s3.us-east-2.amazonaws.com/mcmp-pipeline-cloudformation-github.yaml" rel="nofollow"><img src="cloudformation-launch-stack.png" alt="deploy to aws" style="max-width:100%;"></a>
    
    
