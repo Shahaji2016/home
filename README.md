@@ -27,14 +27,14 @@
         ![GitHub Repo](github-repo.png)
         
   ### Quick start with Sample Repositories
-    The following sample repositories are availble for practice and can be forked to your github account
-    1. Login to your github account
-    2. Go to one of the following repo links
-    3. Select **Fork** button at the right hand side of the portal 
+   The following sample repositories are availble for practice and can be forked to your github account
+   1. Login to your github account
+   2. Go to one of the following repo links
+   3. Select **Fork** button at the right hand side of the portal 
     
-    [catalog-api](https://github.com/mcmpdemoeng/aws-catalog-api)
-    [orders-api](https://github.com/mcmpdemoeng/aws-orders-api)
-    [ui](https://github.com/mcmpdemoeng/aws-ui)
+   [catalog-api](https://github.com/mcmpdemoeng/aws-catalog-api)
+   [orders-api](https://github.com/mcmpdemoeng/aws-orders-api)
+   [ui](https://github.com/mcmpdemoeng/aws-ui)
     
       
   ### OpenShift Deployment 
