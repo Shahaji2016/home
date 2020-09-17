@@ -15,23 +15,30 @@
 ## Instructions : Provisioning AWS CI/CD Pipeline
    The pipeline is designed to integrate with source code repository that contains a docker based application/microservice and deployed using helm chart.
    It is currently tested with GitHub repository and deployment to OpenShift/AWS-EKS Kubernetes clusters.
-   # Pre-requisites
+   ### Pre-requisites
    1. AWS Account
    2. DockerHub Account
    3. GitHub Account
    4. GitHub Personal Access Token: [How to create access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) 
+   5. Kubernetes Cluster  (See below for sample kubeconfig.yaml) 
    5. Git repository with DockerFile and helm chart
         ![GitHub Repo](github-repo.png)
       
-## OpenShift Deployment 
-   <https://github.com/mcmpdemo/home/tree/master/mcmp-demo-config-bucket/OCP>
+  ### OpenShift Deployment 
+   The following configuration files are required. You can upload configuration files to an S3 bucket or place it at the root directory of repository.
    1. kubeconfig.yaml
    2. database-secret.yaml (optional)
    
-## EKS Deployment
-   <https://github.com/mcmpdemo/home/tree/master/mcmp-demo-config-bucket/EKS>
+   Sample OCP configuration files: <https://github.com/mcmpdemo/home/tree/master/mcmp-demo-config-bucket/OCP>
+   
+   
+  ### EKS Deployment - - sample configuration file
+  The following configuration files are required. You can upload configuration files to an S3 bucket or place it at the root directory of repository.
+   
    1. kubeconfig.yaml
    2. database-secret.yaml (optional)
    3. credentials
    4. config
+   
+   Sample EKS configuration files: <https://github.com/mcmpdemo/home/tree/master/mcmp-demo-config-bucket/EKS>
 
