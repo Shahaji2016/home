@@ -21,7 +21,7 @@
    3. GitHub Account
    4. GitHub Personal Access Token: [How to create access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) 
    5. Git repository with DockerFile and helm chart
-        ![GitHub Repo](GitHub Repo.png)
+        ![GitHub Repo](github-repo.png)
       
 ## OpenShift Deployment 
    <https://github.com/mcmpdemo/home/tree/master/mcmp-demo-config-bucket/OCP>
