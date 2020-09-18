@@ -6,11 +6,11 @@
 
 ---
 ## Deployment to Multiple Clusters
-![CFN AWS Pipeline](aws-multiple-clusters.png)
+![CFN AWS Pipeline](images/aws-multiple-clusters.png)
 
 ---
 ## MCMP Integration - Build Instrumentation
-![CFN AWS Pipeline](aws-pipeline-mcmp-integration.png)
+![CFN AWS Pipeline](images/aws-pipeline-mcmp-integration.png)
 
 ## Instructions - Provisioning AWS CI/CD Pipeline
    The pipeline is designed to integrate with source code repository that contains a docker based application/microservice and deployed using helm chart.
@@ -24,7 +24,7 @@
    6. GitHub Personal Access Token: [How to create access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) 
    7. Kubernetes Cluster - OCP or EKS  (See below for sample kubeconfig.yaml) 
    8. Git repository with DockerFile and helm chart (see below instructions to clone sample repository)
-        ![GitHub Repo](github-repo.png)
+        ![GitHub Repo](images/github-repo.png)
         
   ### Quick start with Sample Repositories
    The following sample repositories are availble for practice and can be forked to your github account
@@ -65,7 +65,7 @@
    **From AWS console** <br>
    1. Sign in to AWS console 
    2. Select Launch button 
-   <a href="https://console.aws.amazon.com/cloudformation/home?#/stacks/new?&templateURL=https://mcmp-demo-template-bucket.s3.us-east-2.amazonaws.com/mcmp-pipeline-cloudformation-github.yaml" rel="nofollow"><img src="cloudformation-launch-stack.png" alt="deploy to aws" style="max-width:100%;"></a>
+   <a href="https://console.aws.amazon.com/cloudformation/home?#/stacks/new?&templateURL=https://mcmp-demo-template-bucket.s3.us-east-2.amazonaws.com/mcmp-pipeline-cloudformation-github.yaml" rel="nofollow"><img src="images/cloudformation-launch-stack.png" alt="deploy to aws" style="max-width:100%;"></a>
    
    
 
