@@ -2,7 +2,7 @@
 
 ---
 ## Pipeline Overview 
-![CFN AWS Pipeline](aws-overview.png)
+![CFN AWS Pipeline](images/aws-overview.png)
 
 ---
 ## Deployment to Multiple Clusters
